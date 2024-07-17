@@ -136,4 +136,4 @@ The OSPA metrics for multi-object tracking and detection in the context of basic
 If you use any performance measures and benchmarks, please cite the relevant papers.
 
 ## Contact
-For any queries, please contact me at tranthiendat.nguyen@gmail.com
+Contributor: Tran Thien Dat Nguyen. Email: tranthiendat.nguyen@gmail.com
