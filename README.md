@@ -19,7 +19,12 @@ Measures | Sub-Measures |   Paper | Code | Notes |
 |**J & F**|J&F, J, F|[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Perazzi_A_Benchmark_Dataset_CVPR_2016_paper.pdf)|[code](trackeval/metrics/j_and_f.py)|Only for Seg Masks|
 |**ID Euclidean**|ID Euclidean|[paper](https://arxiv.org/pdf/2103.13516.pdf)|[code](trackeval/metrics/ideucl.py)| |
 
-Note: OSPA(2) and OSPA metrics are distances, hence the lower the better. OSPA(2) and OSPA are the main components. OSPA2_CARD and OSPA_CARD are the cardinality error components, and OSPA2_LOC and OSPA_LOC are the localization error components. By definitions, OSPA2 = OSPA2_CARD + OSPA2_LOC, and OSPA = OSPA_CARD + OSPA_LOC.
+Note: 
+- OSPA(2) and OSPA metrics are distances, hence the lower the better.
+- OSPA(2) and OSPA are the main components. OSPA2_CARD and OSPA_CARD are the cardinality error components, and OSPA2_LOC and OSPA_LOC are the localization error components.
+- By definitions:
+  -  OSPA2 = OSPA2_CARD + OSPA2_LOC,
+  -  OSPA = OSPA_CARD + OSPA_LOC.
 
 ## Implemented Benchmarks
 
