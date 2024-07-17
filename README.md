@@ -6,7 +6,7 @@
 
 The following performance measures are currently implemented:
 
-Measures | Sub-Measures | Paper | Code | Notes |
+Measures | Sub-Measures |   Paper | Code | Notes |
 |----- | ----------- |----- | ----------- | ----- |
 | | | |  |  |
 |**OSPA(2) metric**| OSPA2, OSPA2_CARD, OSPA2_LOC| [paper](https://ieeexplore.ieee.org/document/9976259)|[code](VisionEvaluation/ospa2.py)| OSPA metric for multi-object tracking |
@@ -40,8 +40,15 @@ Benchmark | Sub-benchmarks | Type | Website | Code | Data Format |
 |**PersonPath22**| |2D BBox|[website](https://github.com/amazon-research/tracking-dataset)|[code](trackeval/datasets/person_path_22.py)|[format](docs/MOTChallenge-format.txt)|
 |**BURST**| {Common, Long-tail, Open-world} Class-guided, {Point, Box, Mask} Exemplar-guided |Seg Mask|[website](https://github.com/Ali2500/BURST-benchmark)|[format](https://github.com/Ali2500/BURST-benchmark/blob/main/ANNOTATION_FORMAT.md)|
 
-## Running the Code
+## Evaluating Multi-Object Detection and Segmentation
+Most implemented performance measures are for multi-object tracking.
+OSPA metric (not OSPA(2)) can be used for multi-object detection/segmentation, and can be done by:
+- First, convert your data to MOTChallenge format (2D bounding box or segmentation mask), treating each image as a frame.
+- In each image, assign the detected objects with distinct IDs to ensure the data pre-processing steps can be done correctly. Note that, the IDs can be reused for different images as long as in each image they are distinct.
+- The OSPA metric does not use object IDs in the evaluation, which means, the distinct IDs can be generated randomly.
+- Finally, use the OSPA metric (not OSPA(2)) to evaluate.
 
+## Running the Code
 The code can be run in one of two ways:
 
  - From the terminal via one of the scripts [here](scripts/). See each script for instructions and arguments.
