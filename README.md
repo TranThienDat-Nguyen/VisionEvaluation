@@ -20,7 +20,7 @@ Measures | Sub-Measures |   Paper | Code | Notes |
 |**ID Euclidean**|ID Euclidean|[paper](https://arxiv.org/pdf/2103.13516.pdf)|[code](trackeval/metrics/ideucl.py)| |
 
 Note: 
-- OSPA(2) and OSPA metrics are distances, hence the lower the better.
+- OSPA(2) and OSPA metrics are in terms of distances (errors), hence the lower the better.
 - OSPA(2) and OSPA are the main distances (errors). OSPA2_CARD and OSPA_CARD are the cardinality error components, and OSPA2_LOC and OSPA_LOC are the localization error components.
 - By definitions:
   -  OSPA2 = OSPA2_CARD + OSPA2_LOC,
