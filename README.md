@@ -68,9 +68,9 @@ If your ground truth and tracker files are located somewhere else, you can use t
 
 To ensure your tracker outputs data in the correct format, check out the format guides for each of the supported benchmarks [here](docs), or check out the example trackers provided.
 
-## Evaluate on your own custom benchmark
+## Evaluate on Custom Benchmark
 
-To evaluate on your own data, you have two options:
+To evaluate on a custom benchmark, there are two options:
  - Write custom dataset code.
  - Convert your current dataset and trackers to the same format as an already implemented benchmark.
 
