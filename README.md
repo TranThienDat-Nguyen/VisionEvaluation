@@ -119,7 +119,7 @@ Please include the following citation in your research if you use the code.
 }
 ```
 
-The OSPA metrics for multi-object tracking and detection in the context of basic vision task evaluation are discussed in the following paper
+The OSPA(2) and OSPA metrics for multi-object tracking, detection and segmentation evaluation are discussed in the following paper:
 
 ```BibTeX
 @ARTICLE{9976259,
