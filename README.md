@@ -47,8 +47,7 @@ Benchmark | Sub-benchmarks | Type | Website | Code | Data Format |
 |**BURST**| {Common, Long-tail, Open-world} Class-guided, {Point, Box, Mask} Exemplar-guided |Seg Mask|[website](https://github.com/Ali2500/BURST-benchmark)|[format](https://github.com/Ali2500/BURST-benchmark/blob/main/ANNOTATION_FORMAT.md)|
 
 ## Evaluating Multi-Object Detection and Segmentation
-Most implemented performance measures are for multi-object tracking.
-OSPA metric (not OSPA(2)) can be used for multi-object detection/segmentation, and can be done by:
+OSPA metric (not OSPA(2)) can be used for multi-object detection/segmentation, and it can be done by:
 - First, convert your data to MOTChallenge format (2D bounding box or segmentation mask), treating each image as a frame.
 - In each image, assign the detected objects with distinct IDs to ensure the data pre-processing steps can be done correctly. Note that, the IDs can be reused for different images as long as in each image they are distinct.
 - The OSPA metric does not use object IDs in the evaluation, which means, the distinct IDs can be generated randomly.
