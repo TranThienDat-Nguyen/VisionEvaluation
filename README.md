@@ -120,7 +120,7 @@ The OSPA metrics for multi-object tracking and detection in the context of basic
   doi={10.1109/TPAMI.2022.3227571}}
 ```
 
-If you use any metrics and benchmarks, please cite the relevant papers.
+If you use any performance measures and benchmarks, please cite the relevant papers.
 
 ## Contact
 For any queries, please contact me at tranthiendat.nguyen@gmail.com
