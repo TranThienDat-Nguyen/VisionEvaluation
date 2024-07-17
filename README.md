@@ -21,7 +21,7 @@ Measures | Sub-Measures |   Paper | Code | Notes |
 
 Note: 
 - OSPA(2) and OSPA metrics are distances, hence the lower the better.
-- OSPA(2) and OSPA are the main components. OSPA2_CARD and OSPA_CARD are the cardinality error components, and OSPA2_LOC and OSPA_LOC are the localization error components.
+- OSPA(2) and OSPA are the main distances (errors). OSPA2_CARD and OSPA_CARD are the cardinality error components, and OSPA2_LOC and OSPA_LOC are the localization error components.
 - By definitions:
   -  OSPA2 = OSPA2_CARD + OSPA2_LOC,
   -  OSPA = OSPA_CARD + OSPA_LOC.
