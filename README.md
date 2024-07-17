@@ -9,8 +9,8 @@ The following performance measures are currently implemented:
 Measures | Sub-Measures |   Paper | Code | Notes |
 |----- | ----------- |----- | ----------- | ----- |
 | | | |  |  |
-|**OSPA(2) metric**| OSPA2, OSPA2_CARD, OSPA2_LOC| [paper](https://ieeexplore.ieee.org/document/9976259)|[code](VisionEvaluation/metrics/ospa2.py)| A metric for multi-object tracking |
-|**OSPA metric**| OSPA, OSPA_CARD, OSPA_LOC| [paper](https://ieeexplore.ieee.org/document/9976259)|[code](VisionEvaluation/metrics/ospa.py)| A metric for multi-object detection and segmentation |
+|**OSPA(2) metric**| OSPA2, OSPA2_CARD, OSPA2_LOC| [paper](https://ieeexplore.ieee.org/document/9976259)|[code](trackeval/metrics/ospa2.py)| A metric for multi-object tracking |
+|**OSPA metric**| OSPA, OSPA_CARD, OSPA_LOC| [paper](https://ieeexplore.ieee.org/document/9976259)|[code](trackeval/metrics/ospa.py)| A metric for multi-object detection and segmentation |
 |**HOTA**|HOTA, DetA, AssA, LocA, DetPr, DetRe, AssPr, AssRe|[paper](https://link.springer.com/article/10.1007/s11263-020-01375-2)|[code](trackeval/metrics/hota.py)| |
 |**CLEARMOT**|MOTA, MOTP, MT, ML, Frag, etc.|[paper](https://link.springer.com/article/10.1155/2008/246309)|[code](trackeval/metrics/clear.py)| |
 |**Identity**|IDF1, IDP, IDR|[paper](https://arxiv.org/abs/1609.01775)|[code](trackeval/metrics/identity.py)| |
