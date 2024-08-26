@@ -34,6 +34,7 @@ The following benchmarks are currently implemented:
 Benchmark | Sub-benchmarks | Type | Website | Code | Data Format |
 |----- | ----------- |----- | ----------- | ----- | ----- |
 | | | |  |  | |
+|**Curtin Multi-Camera**|Combination of five 3D sequences|3D BBox|[website](https://github.com/linh-gist/3D-Visual-MOT)|[code](trackeval/datasets/cmc_3d_box.py)|[format](docs/CMC-3D-box-format.txt)|
 |**RobMOTS**|Combination of 8 benchmarks|Seg Masks|[website](https://eval.vision.rwth-aachen.de/rvsu-workshop21/?page_id=110)|[code](trackeval/datasets/rob_mots.py)|[format](docs/RobMOTS-Official/Readme.md)|
 |**Open World Tracking**|TAO-OW|OpenWorld / Seg Masks|[website](https://openworldtracking.github.io)|[code](trackeval/datasets/tao_ow.py)|[format](docs/OpenWorldTracking-Official/Readme.md)|
 |**MOTChallenge**|MOT15/16/17/20|2D BBox|[website](https://motchallenge.net/)|[code](trackeval/datasets/mot_challenge_2d_box.py)|[format](docs/MOTChallenge-format.txt)|
@@ -66,8 +67,8 @@ By default the code prints results to the screen, saves results out as both a su
 
 ## Quick Test on Supported Benchmarks
 
-To enable you to use the code for evaluation as quickly and easily as possible, ground-truth data, meta-data and example trackers for all currently supported benchmarks are provided.
-You can download this here: [data.zip](https://omnomnom.vision.rwth-aachen.de/data/TrackEval/data.zip) (~150mb).
+Ground-truth data, meta-data and example trackers for all currently supported benchmarks are provided in the following link.
+You can download this here: [data.zip](https://drive.google.com/file/d/1VYC6iOFyN2WAoA0JB0dzXbIlYPabC34t/view?usp=sharing) (~150mb).
 
 The data for RobMOTS is separate and can be found here: [rob_mots_train_data.zip](https://omnomnom.vision.rwth-aachen.de/data/RobMOTS/train_data.zip) (~750mb).
 
