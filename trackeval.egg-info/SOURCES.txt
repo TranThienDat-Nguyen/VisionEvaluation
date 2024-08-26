@@ -30,6 +30,7 @@ trackeval/datasets/_base_dataset.py
 trackeval/datasets/bdd100k.py
 trackeval/datasets/burst.py
 trackeval/datasets/burst_ow.py
+trackeval/datasets/cmc_3d_box.py
 trackeval/datasets/davis.py
 trackeval/datasets/head_tracking_challenge.py
 trackeval/datasets/kitti_2d_box.py
@@ -56,5 +57,7 @@ trackeval/metrics/hota.py
 trackeval/metrics/identity.py
 trackeval/metrics/ideucl.py
 trackeval/metrics/j_and_f.py
+trackeval/metrics/ospa.py
+trackeval/metrics/ospa2.py
 trackeval/metrics/track_map.py
 trackeval/metrics/vace.py
