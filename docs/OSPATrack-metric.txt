@@ -1,0 +1,8 @@
+OSPATrack (OSPA(2)) Metric:
+The OSPATrack metric evaluates the distance (error) between the sets of ground truth tracks and estimated tracks over the entire video sequence.
+The output distance includes 2 components: cardinality error (OSPA_CARD) and localization error (OSPA_LOC).
+The output distances/errors are reported in terms of the percentage of the cut-off value.
+Note: 
+Default cut-off value is 1 and default order is 1.
+If the base metric is Euclidean, the pair-wise distance between 2 objects is capped and normalized by the zero-distance which is 2 by default. 
+The lower the OSPATrack distance, the better the tracking results.
