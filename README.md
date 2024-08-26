@@ -20,7 +20,7 @@ Measures | Sub-Measures |   Paper | Code | Notes |
 |**ID Euclidean**|ID Euclidean|[paper](https://arxiv.org/pdf/2103.13516.pdf)|[code](trackeval/metrics/ideucl.py)| |
 
 Note: 
-- **[Generalized Intersection over Union (GIOU)](https://openaccess.thecvf.com/content_CVPR_2019/papers/Rezatofighi_Generalized_Intersection_Over_Union_A_Metric_and_a_Loss_for_CVPR_2019_paper.pdf) is included as a base metric for bounding box evaluation. Use the 'GIOU' flag in the evaluation scripts to choose the base metric. Note that the GIOU score is normalized to values between 0 and 1, the same as the IOU score.**.
+- **[Generalized Intersection over Union (GIOU)](https://openaccess.thecvf.com/content_CVPR_2019/papers/Rezatofighi_Generalized_Intersection_Over_Union_A_Metric_and_a_Loss_for_CVPR_2019_paper.pdf) is included as a base metric for bounding box evaluation. Use the 'GIOU' flag in the evaluation scripts to choose the base metric. Note that the GIOU score is normalized to values between 0 and 1, same as the IOU score.**
 - OSPA(2) and OSPA metrics are given in terms of distances (errors), hence the lower the better.
 - OSPA(2) and OSPA are the main distances (errors). OSPA2_CARD and OSPA_CARD are the cardinality error components, and OSPA2_LOC and OSPA_LOC are the localization error components.
 - By definitions:
