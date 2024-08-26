@@ -34,7 +34,7 @@ The following benchmarks are currently implemented:
 Benchmark | Sub-benchmarks | Type | Website | Code | Data Format |
 |----- | ----------- |----- | ----------- | ----- | ----- |
 | | | |  |  | |
-|**Curtin Multi-Camera**|CMC1/CMC2/CMC3/CMC4/CMC5|3D BBox|[website](https://github.com/linh-gist/3D-Visual-MOT)|[code](trackeval/datasets/cmc_3d_box.py)|[format](docs/CMC-3D-box-format.txt)|
+|**Curtin Multi-Camera**|CMC1/2/3/4/5|3D BBox|[website](https://github.com/linh-gist/3D-Visual-MOT)|[code](trackeval/datasets/cmc_3d_box.py)|[format](docs/CMC-3D-box-format.txt)|
 |**RobMOTS**|Combination of 8 benchmarks|Seg Masks|[website](https://eval.vision.rwth-aachen.de/rvsu-workshop21/?page_id=110)|[code](trackeval/datasets/rob_mots.py)|[format](docs/RobMOTS-Official/Readme.md)|
 |**Open World Tracking**|TAO-OW|OpenWorld / Seg Masks|[website](https://openworldtracking.github.io)|[code](trackeval/datasets/tao_ow.py)|[format](docs/OpenWorldTracking-Official/Readme.md)|
 |**MOTChallenge**|MOT15/16/17/20|2D BBox|[website](https://motchallenge.net/)|[code](trackeval/datasets/mot_challenge_2d_box.py)|[format](docs/MOTChallenge-format.txt)|
