@@ -120,7 +120,7 @@ Please include the following citation in your research if you use the code.
 }
 ```
 
-The OSPA(2) and OSPA metrics for multi-object tracking, detection and segmentation evaluation are discussed in the following paper:
+The OSPA(2) and OSPA metrics (and other performance criteria) for multi-object tracking, detection and segmentation evaluation are discussed in the following paper:
 
 ```BibTeX
 @ARTICLE{9976259,
