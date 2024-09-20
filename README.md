@@ -108,7 +108,7 @@ use ```pip3 -r install minimum_requirments.txt``` to only install the minimum if
 
 ## Acknowledgement
 
-This code and most of the information in this README file are released under the 'TrackEval' repo by Jonathon Luiten and Arne Hoffhues at https://github.com/JonathonLuiten/TrackEval. 
+Parts of the codes and most of the information in this README file are released under the 'TrackEval' repo by Jonathon Luiten and Arne Hoffhues at https://github.com/JonathonLuiten/TrackEval. 
 Please include the following citation in your research if you use the code.
 
 ```BibTeX
