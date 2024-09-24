@@ -97,7 +97,7 @@ class OSPATrack(_BaseMetric):
         match_rows, match_cols = linear_sum_assignment(trk_dist)
         cost = trk_dist[match_rows, match_cols].sum()
 
-        # Get the score for consistency with other criteria
+        # Get the distance
         res['OSPA2_CARD'] = (((c ** p * abs(m - n)) / max(m, n)) ** (1 / p)) / c
         res['OSPA2_LOC'] = (cost / max(m, n)) ** (1 / p) / c
         res['OSPA2'] = ((c ** p * abs(m - n) + cost) / max(m, n)) ** (1 / p) / c
