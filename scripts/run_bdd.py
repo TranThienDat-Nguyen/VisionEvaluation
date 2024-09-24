@@ -29,7 +29,7 @@ Command Line Arguments: Defaults, # Comments
             'TRACKER_SUB_FOLDER': 'data',  # Tracker files are in TRACKER_FOLDER/tracker_name/TRACKER_SUB_FOLDER
             'OUTPUT_SUB_FOLDER': '',  # Output files are saved in OUTPUT_FOLDER/tracker_name/OUTPUT_SUB_FOLDER
             'TRACKER_DISPLAY_NAMES': None,  # Names of trackers to display, if None: TRACKERS_TO_EVAL
-            'GIOU': True, # Use GIOU metric
+            'GIOU': True, # Flag to compute GIOU metric (compute IOU if set to False)
     Metric arguments:
         'METRICS': ['OSPATrack', 'HOTA', 'CLEAR', 'Identity']
 """
