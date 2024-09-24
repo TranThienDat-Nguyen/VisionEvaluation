@@ -43,8 +43,8 @@ class OSPADetection(_BaseMetric):
                 all_ospa[1, kk] = 0
                 all_ospa[2, kk] = c if m != n else 0
                 continue
-            match_rows, match_cols = linear_sum_assignment(data['similarity_scores'][kk])
-            cost = data['similarity_scores'][kk][match_rows, match_cols].sum()
+            match_rows, match_cols = linear_sum_assignment(1-data['similarity_scores'][kk])
+            cost = (1-data['similarity_scores'][kk][match_rows, match_cols]).sum()
             all_ospa[0, kk] = ((c ** p * abs(m - n) + cost) / max(m, n)) ** (1 / p) / c # OSPA
             all_ospa[1, kk] = (((c ** p * abs(m - n)) / max(m, n)) ** (1 / p)) / c # OSPA_CARD
             all_ospa[2, kk] = (cost / max(m, n)) ** (1 / p) / c # OSPA_LOC
