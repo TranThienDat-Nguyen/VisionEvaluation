@@ -31,7 +31,6 @@ Command Line Arguments: Defaults, # Comments
         'GT_LOC_FORMAT': '{gt_folder}/Annotations_unsupervised/480p/{seq}',
         # '{gt_folder}/Annotations_unsupervised/480p/{seq}'
         'MAX_DETECTIONS': 0  # Maximum number of allowed detections per sequence (0 for no threshold)
-        'GIOU': True, # Use GIOU metric
     Metric arguments:
         'METRICS': ['OSPATrack', 'HOTA', 'CLEAR', 'Identity', 'JAndF']
 """
