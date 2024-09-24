@@ -27,8 +27,9 @@ Command Line Arguments: Defaults, # Comments
         'PRINT_CONFIG': True,  # Whether to print current config
         'TRACKER_SUB_FOLDER': 'data',  # Tracker files are in TRACKER_FOLDER/tracker_name/TRACKER_SUB_FOLDER
         'OUTPUT_SUB_FOLDER': ''  # Output files are saved in OUTPUT_FOLDER/tracker_name/OUTPUT_SUB_FOLDER
+        'GIOU': True, # Use GIOU metric
     Metric arguments:
-        'METRICS': ['Hota','Clear', 'ID', 'Count']
+        'METRICS': ['OSPATrack', 'HOTA', 'CLEAR', 'Identity']
 """
 
 import sys
