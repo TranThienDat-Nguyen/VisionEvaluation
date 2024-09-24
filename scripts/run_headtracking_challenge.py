@@ -29,7 +29,7 @@ Command Line Arguments: Defaults, # Comments
         'DO_PREPROC': True,  # Whether to perform preprocessing (never done for 2D_MOT_2015)
         'TRACKER_SUB_FOLDER': 'data',  # Tracker files are in TRACKER_FOLDER/tracker_name/TRACKER_SUB_FOLDER
         'OUTPUT_SUB_FOLDER': '',  # Output files are saved in OUTPUT_FOLDER/tracker_name/OUTPUT_SUB_FOLDER
-        'GIOU': True, # Use GIOU metric
+        'GIOU': True, # Use GIOU distance for evaluation (set to False for IOU distance)
     Metric arguments:
         'METRICS': ['OSPATrack', 'HOTA', 'CLEAR', 'Identity', 'IDEucl']
 """
