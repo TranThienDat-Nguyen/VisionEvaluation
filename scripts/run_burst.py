@@ -55,7 +55,6 @@ Command Line Arguments: Defaults, # Comments
         'OUTPUT_SUB_FOLDER': '',  # Output files are saved in OUTPUT_FOLDER/tracker_name/OUTPUT_SUB_FOLDER
         'TRACKER_DISPLAY_NAMES': None,  # Names of trackers to display, if None: TRACKERS_TO_EVAL
         'MAX_DETECTIONS': 300,  # Number of maximal allowed detections per image (0 for unlimited)
-        'GIOU': True, # Use GIOU metric
     Metric arguments:
         'METRICS': ['OSPATrack', 'HOTA', 'TrackMAP']
 """
