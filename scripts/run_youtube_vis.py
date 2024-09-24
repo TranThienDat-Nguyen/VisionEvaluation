@@ -31,7 +31,7 @@ Command Line Arguments: Defaults, # Comments
         'TRACKER_SUB_FOLDER': 'data',  # Tracker files are in TRACKER_FOLDER/tracker_name/TRACKER_SUB_FOLDER
         'TRACKER_DISPLAY_NAMES': None,  # Names of trackers to display, if None: TRACKERS_TO_EVAL
     Metric arguments:
-        'METRICS': ['TrackMAP', 'HOTA', 'CLEAR', 'Identity']
+        'METRICS': ['OSPATrack', 'TrackMAP', 'HOTA', 'CLEAR', 'Identity']
 """
 
 import sys
@@ -50,8 +50,7 @@ if __name__ == '__main__':
     # print only combined since TrackMAP is undefined for per sequence breakdowns
     default_eval_config['PRINT_ONLY_COMBINED'] = True
     default_dataset_config = trackeval.datasets.YouTubeVIS.get_default_dataset_config()
-    # default_metrics_config = {'METRICS': ['OSPATrack', 'TrackMAP', 'HOTA', 'CLEAR', 'Identity']}
-    default_metrics_config = {'METRICS': ['OSPATrack']}
+    default_metrics_config = {'METRICS': ['OSPATrack', 'TrackMAP', 'HOTA', 'CLEAR', 'Identity']}
     config = {**default_eval_config, **default_dataset_config, **default_metrics_config}  # Merge default configs
     parser = argparse.ArgumentParser()
     for setting in config.keys():
