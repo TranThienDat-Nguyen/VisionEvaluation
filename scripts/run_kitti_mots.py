@@ -32,8 +32,9 @@ Command Line Arguments: Defaults, # Comments
         'SEQMAP_FILE': None,    # Directly specify seqmap file (if none use seqmap_folder/split_to_eval.seqmap)
         'SEQ_INFO': None,  # If not None, directly specify sequences to eval and their number of timesteps
         'GT_LOC_FORMAT': '{gt_folder}/instances_txt/{seq}.txt',  # format of gt localization
+        'GIOU': True, # Use GIOU metric
     Metric arguments:
-        'METRICS': ['HOTA', 'CLEAR', 'Identity']
+        'METRICS': ['OSPATrack', 'HOTA', 'CLEAR', 'Identity']
 """
 
 import sys
