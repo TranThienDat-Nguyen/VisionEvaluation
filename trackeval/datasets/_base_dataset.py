@@ -350,7 +350,7 @@ class _BaseDataset(ABC):
         threshold corresponds to a 1m distance threshold for TPs.
         """
         dist = np.linalg.norm(dets1[:, np.newaxis] - dets2[np.newaxis, :], axis=2)
-        sim = np.maximum(0, 1 - dist / zero_distance)
+        sim = np.maximum(0, zero_distance - dist / zero_distance)
         return sim
 
     @staticmethod
